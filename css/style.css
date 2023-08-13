@@ -106,7 +106,7 @@ button:hover {
     height: 81vh;
     position: relative;
     left: 0;
-    top: 2.8em;
+    top: 1.2em;
   }
 
   .text {
@@ -123,7 +123,7 @@ button:hover {
   }
   button {
     position: relative;
-    top: -2em;
+    top: -5em;
     left: 9em;
     padding: 0.7em;
     width: 50vw;
