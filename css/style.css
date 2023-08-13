@@ -1,0 +1,413 @@
+body {
+  background-color: #ebebeb;
+  overflow: hidden;
+}
+
+.card {
+  width: 30%;
+  height: 29.2em;
+  position: relative;
+  top: 8em;
+  left: 40em;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 12px;
+  -webkit-box-shadow: 9px -7px 53px -6px rgba(158, 158, 158, 1);
+  -moz-box-shadow: 9px -7px 53px -6px rgba(158, 158, 158, 1);
+  box-shadow: 9px -7px 53px -6px rgba(158, 158, 158, 1);
+  border: solid 1px #00000045;
+}
+
+.img-parfum-pc {
+  width: 55%;
+  height: auto;
+  border-radius: 12px;
+}
+
+h2 {
+  color: #0000005e;
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-size: 1.5em;
+  width: 8em;
+  font-family: sans-serif;
+  color: #000000b7;
+}
+p {
+  font-size: 1.1em;
+  width: 13em;
+  color: #000000c6;
+  margin-top: -1em;
+}
+
+strong {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  color: #00bc6df9;
+}
+
+h5 {
+  text-decoration: line-through;
+  font-size: 15px;
+  margin-top: 0.5em;
+}
+.text {
+  position: relative;
+  left: 20em;
+  top: -26em;
+}
+
+button {
+  background-color: #00bc6df9;
+  position: relative;
+  top: -30em;
+  left: 24.5em;
+  width: 15em;
+  padding: 0.8em;
+  border: none;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(15, 146, 65);
+  color: #fff;
+  box-shadow: 3px 3px 15px #000000a2;
+}
+#toggle-btn {
+  position: relative;
+  top: 5em;
+  width: auto;
+  background-color: transparent;
+  border: solid 1px #00bc6df9;
+}
+.is-light {
+  background-color: #f1f5f9;
+}
+
+.is-dark {
+  background-color: #0f0f0f;
+}
+
+.is-dark .card {
+  -webkit-box-shadow: 9px -7px 53px -6px rgb(113, 113, 113);
+  -moz-box-shadow: 9px -7px 53px -6px rgb(112, 112, 112);
+  box-shadow: 9px -7px 53px -6px rgba(202, 202, 202, 0.684);
+  border: solid 1px #00000045;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .card {
+    width: auto;
+    height: 81vh;
+    position: relative;
+    left: 0;
+    top: 2.8em;
+  }
+
+  .text {
+    position: relative;
+    left: -1em;
+    top: 0;
+  }
+  .img-parfum-pc {
+    width: auto;
+    height: 42vh;
+    border-radius: 12px;
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  button {
+    position: relative;
+    top: -2em;
+    left: 9em;
+    padding: 0.7em;
+    width: 50vw;
+  }
+
+  h2 {
+    margin-left: 1.5em;
+  }
+
+  h4 {
+    width: auto;
+    margin-left: 1em;
+    margin-top: 0.1em;
+  }
+  p {
+    width: auto;
+    font-size: 1.1em;
+    margin-left: 1.5em;
+  }
+
+  strong {
+    font-size: 1.3em;
+    margin-left: 1em;
+  }
+
+  h5 {
+    font-size: 1em;
+    margin-left: 1.4em;
+    margin-top: 0.2em;
+  }
+  #toggle-btn {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    padding: 0.9em;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .card {
+    width: 68%;
+    height: 81vh;
+    position: relative;
+    left: 7em;
+    top: 3.8em;
+  }
+
+  .text {
+    position: relative;
+    left: -1em;
+    top: 0;
+  }
+  .img-parfum-pc {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-left: 6em;
+    margin-top: 0.51em;
+  }
+  button {
+    position: relative;
+    top: 0;
+    left: 15em;
+    padding: 1em;
+  }
+
+  h2 {
+    margin-left: 1.5em;
+  }
+
+  h4 {
+    width: auto;
+    margin-left: 1em;
+    margin-top: 0.1em;
+  }
+  p {
+    width: auto;
+    font-size: 1.1em;
+    margin-left: 1.5em;
+  }
+
+  strong {
+    font-size: 1.3em;
+    margin-left: 1em;
+  }
+
+  h5 {
+    font-size: 1em;
+    margin-left: 1.4em;
+    margin-top: 0.2em;
+  }
+
+  #toggle-btn {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    padding: 0.9em;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    width: 68%;
+    height: 63vh;
+    position: relative;
+    left: 8em;
+    top: 3.8em;
+  }
+
+  .text {
+    position: relative;
+    top: -31em;
+    left: 21em;
+    width: 27vw;
+  }
+  .img-parfum-pc {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  button {
+    position: relative;
+    top: -27em;
+    left: 28em;
+    padding: 1em;
+  }
+
+  h2 {
+    margin-left: 1.5em;
+  }
+
+  h4 {
+    width: auto;
+    margin-left: 1em;
+    margin-top: 0.1em;
+  }
+  p {
+    width: auto;
+    font-size: 1.1em;
+    margin-left: 1.5em;
+  }
+
+  strong {
+    font-size: 1.3em;
+    margin-left: 1em;
+  }
+
+  h5 {
+    font-size: 1em;
+    margin-left: 1.4em;
+    margin-top: 0.2em;
+  }
+
+  #toggle-btn {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    padding: 0.9em;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .card {
+    width: 68%;
+    height: 63vh;
+    position: relative;
+    left: 8em;
+    top: 3.8em;
+  }
+
+  .text {
+    position: relative;
+    top: -27em;
+    left: 24em;
+    width: 27vw;
+  }
+  .img-parfum-pc {
+    max-width: 100%;
+    height: 63vh;
+    border-radius: 12px;
+  }
+  button {
+    position: relative;
+    top: -27em;
+    left: 31em;
+    padding: 1em;
+  }
+
+  h2 {
+    margin-left: 1.5em;
+  }
+
+  h4 {
+    width: auto;
+    margin-left: 1em;
+    margin-top: 0.1em;
+  }
+  p {
+    width: auto;
+    font-size: 1.1em;
+    margin-left: 1.5em;
+  }
+
+  strong {
+    font-size: 1.3em;
+    margin-left: 1em;
+  }
+
+  h5 {
+    font-size: 1em;
+    margin-left: 1.4em;
+    margin-top: 0.2em;
+  }
+
+  #toggle-btn {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    padding: 0.9em;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+  .card {
+    width: 45vw;
+    height: 63vh;
+    position: relative;
+    left: 22em;
+    top: 5em;
+  }
+
+  .text {
+    position: relative;
+    top: -24em;
+    left: 20em;
+    width: 18vw;
+  }
+  .img-parfum-pc {
+    max-width: 100%;
+    height: 63vh;
+    border-radius: 12px;
+  }
+  button {
+    position: relative;
+    top: -29em;
+    left: 27em;
+    padding: 0.9em;
+  }
+
+  h2 {
+    margin-left: 1.5em;
+  }
+
+  h4 {
+    width: auto;
+    margin-left: 1em;
+    margin-top: 0.1em;
+  }
+  p {
+    width: auto;
+    font-size: 1.1em;
+    margin-left: 1.5em;
+  }
+
+  strong {
+    font-size: 1.3em;
+    margin-left: 1em;
+  }
+
+  h5 {
+    font-size: 1em;
+    margin-left: 1.4em;
+    margin-top: 0.2em;
+  }
+
+  #toggle-btn {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    padding: 0.9em;
+    z-index: 1;
+  }
+}
